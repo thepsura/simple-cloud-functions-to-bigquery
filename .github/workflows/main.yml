@@ -44,7 +44,6 @@ jobs:
           # Region to deploy the function in. Defaults to us-central1, if not specified.
           region: us-central1
           # Memory Cloud function
-          memory_mb: '1024'
           # Name of a function (as defined in source code) that will be executed. Defaults to the resource name suffix, if not specified. 
           entry_point: insert_data
           # Runtime to use for the function.
